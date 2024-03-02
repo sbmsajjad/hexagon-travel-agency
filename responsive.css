@@ -1,0 +1,193 @@
+@media screen and (max-width: 600px) {
+  /* common responsive styles */
+  .section-title {
+    font-size: 30px;
+  }
+  .section-secondary-title {
+    font-size: 25px;
+  }
+  /* navbar styles */
+  .logo {
+    padding-left: 70px;
+    display: flex;
+  }
+  .logo img {
+    padding-right: 10px;
+  }
+  .menu-items {
+    display: none;
+  }
+  /* hero section styles */
+  .hero-container {
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  .hero-contents {
+    color: white;
+  }
+  .hero-contents h1 {
+    color: white;
+  }
+  /* popular tour responsive styles */
+  .popular-tour-lists {
+    margin: 10px 0px;
+    padding: 0px 20px;
+    font-size: 15px;
+  }
+  .popular-tour-container,
+  .perfect-place-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .popular-tour-content {
+    max-width: 90%;
+  }
+  .popular-tour-image,
+  .perfect-place-image {
+    max-width: 100%;
+    padding: 0px 15px;
+  }
+  .popular-tour-image img,
+  .perfect-place-image video {
+    max-width: 100%;
+  }
+  /* popular desitanation styles */
+  .destination-container {
+    margin-top: 50px;
+    margin-bottom: 150px;
+  }
+  .destination-header {
+    text-align: center;
+    padding: 5px 20px;
+  }
+  .countries-row-1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0px;
+  }
+  .countries-row-2 {
+    width: 100%;
+    display: grid;
+    padding: 5px;
+    grid-template-columns: 1fr;
+  }
+  .countries-row-3 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0px;
+  }
+  .countries-row-1 img {
+    height: 176px;
+  }
+  .countries-row-2 img {
+    height: 176px;
+  }
+  .countries-row-3 img {
+    height: 176px;
+  }
+  .countries {
+    margin-bottom: 55px;
+  }
+  .countries img {
+    width: 100%;
+  }
+  .countries p {
+    text-align: center;
+    margin-top: -110px;
+  }
+  /* choose us responsive styles */
+  .choose-us-cards {
+    flex-direction: column;
+  }
+  .choose-card {
+    padding-top: 30px;
+  }
+  .choose-us-card-bg-1 {
+    background-color: #fbb46314;
+    border: 1px solid #fbb4633c;
+    width: 100%;
+  }
+  .choose-us-card-bg-2 {
+    background-color: #29cdf60a;
+    border: 1px solid #29cdf635;
+    width: 100%;
+  }
+  .choose-us-card-bg-3 {
+    background-color: #e944440f;
+    border: 1px solid #e944444a;
+    width: 88%;
+    margin: 0 auto;
+  }
+  /* perfect place styles */
+  .perfect-place-content {
+    max-width: 100%;
+    margin-top: -120px;
+  }
+  /* newsletter styles */
+  .newsletter-container {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .newsletter-content {
+    width: 90%;
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 10px;
+  }
+  .newsletter-image {
+    width: 100%;
+    margin-top: -30px;
+  }
+  .newsletter-image img {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .newsletter-image {
+    position: relative;
+    padding: 15px;
+    margin-top: 20px;
+  }
+  .newsletter-discount {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    top: 230px;
+    right: 23px;
+  }
+  #email,
+  #fullname {
+    background-color: #1313180d;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin-top: 8px;
+    width: 280px;
+  }
+  .subscribe-btn {
+    width: 280px;
+    margin-top: 10px;
+  }
+  .newsletter-discount h3 {
+    color: white;
+    font-size: 14px;
+  }
+  /* footer responsive styles */
+  .footer-copyright {
+    padding-bottom: 100px;
+  }
+  footer {
+    height: 600px;
+  }
+  .footer-description {
+    padding: 0px 30px;
+  }
+}
